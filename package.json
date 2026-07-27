@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:e2e": "playwright test spec/e2e.spec.ts",
+    "test:e2e": "playwright test tests/spec/e2e.spec.ts",
     "test:ci": "BASE_URL=https://shanmugappriya-procap.github.io/haus-store/ playwright test"
   },
   "keywords": [],
@@ -14,10 +14,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+    "playwright": "^1.61.1",
     "@types/node": "^25.5.0",
     "axios": "^1.13.6",
-    "dotenv": "^17.3.1",
-    "playwright": "^1.58.2"
+    "dotenv": "^17.3.1"
   },
   "dependencies": {
     "allure-playwright": "^3.6.0",
